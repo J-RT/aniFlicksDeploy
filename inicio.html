@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inicio.css">
+    <script src="https://kit.fontawesome.com/f10d2c1437.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--cabecera-->
+    <header class="cabecera">
+        <!--contenedor de iconos menu Hamburgueza-->
+        <div class="cont-icon-barras" id="btn-bars">
+            <!--icono barras-->
+                <div>
+                 <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        <!--Logo-->
+        <div class="logo">
+             <!--titulo principal-->
+            <h1 class="titulo">AniFlicks</h1>
+        </div>
+
+        <!--navegacion-->
+        
+        <nav class="navegacion" id="navMobile">
+
+            <!--icono flecha-->
+            <div class="cont-icon-equiz">
+                <div id="btn-equiz">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+            </div>
+
+            <!--buscador-->
+            <section class="sec-search">
+                <div class="cont-search">
+                    <form action="">
+                       <input type="search" placeholder="buscar flicks">
+                       <button>
+                         <i class="fa-solid fa-magnifying-glass"></i>
+                       </button>
+                    </form>
+                 </div>
+            </section>
+
+            <ul class="nav-list">
+                <li>
+                    <a href="">Top</a>
+                </li>
+                <li>
+                    <a href="">Directorio</a>
+                </li>
+                <li>
+                    <a href="">Nosotros</a>
+                </li>
+            </ul>
+        
+        </nav>
+
+        <!--boton de seccion y registro-->
+        <section class="inicio-sec">
+            <button>
+                <!--icono de usuario-->
+                <i class="fa-solid fa-user"></i>
+            </button>
+        </section>
+    </header>
+
+    <!--Contenido Principal-->
+    <main>
+        <!--seccion de ver ahora-->
+        <section class="sec-recomendacion">
+            <div class="cont-rec">
+                <div class="sec-rec-info">
+                    <h3>Chainsaw Man – The Movie: Reze Arc
+                    </h3>
+                    <p>Denji se encuentra con Reze, un híbrido demonio-humano que es aliado del Gun Devil.</p>
+                    <button>ver ahora</button>
+                </div>
+                <div class="sec-rec-points">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <img src="maxresdefault.jpg" alt="">
+            </div>
+        </section>
+
+        <div class="carousel">
+            <div class="carousel-titulo">
+                <div class="car-tit-bor"></div>
+                <h2>Accion</h2>
+            </div>
+            <button class="carousel-btn prev">‹</button>
+            <div class="carousel-track-container">
+              <div class="carousel-track">
+                <div class="carousel-item">
+                    <img src="images.jpg" alt="Imagen 1" class="car-item-img">
+                    <button class="btn-play">
+                        <i class="fa-solid fa-play btn-play-i"></i>
+                    </button>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagesfstn.jpg" alt="Imagen 2">
+                    <button class="btn-play">
+                        <i class="fa-solid fa-play btn-play-i"></i>
+                    </button>
+                </div>
+                <div class="carousel-item">
+                    <img src="descargajk0.jpg" alt="Imagen 3">
+                    <button class="btn-play">
+                        <i class="fa-solid fa-play btn-play-i"></i>
+                    </button>
+                </div>
+                <div class="carousel-item"><img src="images.jpg" alt="Imagen 4">
+                    <button class="btn-play"><i class="fa-solid fa-play btn-play-i"></i></button></div>
+                <div class="carousel-item"><img src="imagesfstn.jpg" alt="Imagen 5">
+                    <button class="btn-play"><i class="fa-solid fa-play btn-play-i"></i></button></div>
+                <div class="carousel-item"><img src="descargajk0.jpg" alt="Imagen 6">
+                    <button class="btn-play"><i class="fa-solid fa-play btn-play-i"></i></button></div>
+                <div class="carousel-item ver-mas">
+                        <button>
+                            <p class="ver-mas-p">ver más</p>
+                            <i class="fa-solid fa-plus ver-mas-i"></i>
+                        </button>
+                </div>
+                
+              </div>
+            </div>
+            <button class="carousel-btn next">›</button>
+          </div>
+          
+
+    </main>
+    <script type="module" src="inicio.js"></script>
+</body>
+</html>
